@@ -3,6 +3,7 @@ About r-adephylo-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-adephylo-feedstock/blob/main/LICENSE.txt)
 
+
 About r-adephylo
 ----------------
 
@@ -11,6 +12,7 @@ Home: https://CRAN.R-project.org/package=adephylo
 Package license: GPL-2.0-or-later
 
 Summary: Multivariate tools to analyze comparative data, i.e. a phylogeny and some traits measured for each taxa.
+
 About r-adephylo
 ----------------
 
