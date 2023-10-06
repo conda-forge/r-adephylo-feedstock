@@ -1,4 +1,4 @@
-{% set version = "1.1-13" %}
+{% set version = "1.1-16" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,12 +10,12 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/adephylo_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/adephylo/adephylo_{{ version }}.tar.gz
-  sha256: 2aa132fee9d0a14ac09b0a96af40ac332cb4e13c892908803c335aa7319ca76d
+  sha256: b5ce5de26bbe6e40ca0650650acac3f613e5170d0b14dc5d6e6bbe83c416ce58
 
 build:
   merge_build_host: true  # [win]
   skip: true  # [win]
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
